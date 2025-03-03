@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Bist Marketing solution
+  </h1>
+    <p>Your digital marketing solution is here!</p>
+    <a href="#contact" class="cta-button">Get Started</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>SEO Optimization</h3>
+        <p>Improve your website's search engine ranking with our SEO expertise.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Marketing</h3>
+        <p>Grow your brand's presence on platforms like Facebook, Instagram, and Twitter.</p>
+      </div>
+      <div class="card">
+        <h3>Paid Advertising</h3>
+        <p>Target the right audience through effective paid ad campaigns.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"This company helped us grow our online sales by 200%. Highly recommend!"</p>
+      <p>- Sarah, E-Commerce Store Owner</p>
+    </div>
+    <div class="testimonial">
+      <p>"Their SEO strategy boosted our website traffic significantly. Great results!"</p>
+      <p>- John, Marketing Manager</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form" onsubmit="submitForm(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="response-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Digital Marketing Agency. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
