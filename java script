@@ -1,0 +1,17 @@
+// your code goesfunction submitForm(event) {
+  event.preventDefault();  // Prevent form submission to the server
+
+  // Get the form data
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  // Check if fields are filled
+  if (name && email && message) {
+    // Here, you could send the form data to a server using AJAX or other methods
+    document.getElementById('response-message').innerText = 'Thank you for reaching out, ' + name + '! We will get back to you soon.';
+  } else {
+    document.getElementById('response-message').innerText = 'Please fill in all the fields.';
+  }
+}
+ here
